@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container mt-5 mb-5">
+    <div class="row">
+            <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"> Correo Electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contrasena</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Verifica</label>
+            </div>
+            <a href="placeholder.html" class="btn btn-primary" target="_blank">
+    Enviar
+</a>
+            </form>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+
+        <select class="form-select" onchange="window.open(this.value,'_blank');">
+            <option selected disabled>Abre el menú</option>
+
+            <option value="https://www.google.com">Google</option>
+
+            <option value="https://www.youtube.com">YouTube</option>
+
+            <option value="https://www.github.com">GitHub</option>
+
+        </select>
+
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+
+<div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Cargando</span>
+    </div>
+</div>
+
+
+
+    </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
